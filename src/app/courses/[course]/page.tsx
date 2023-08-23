@@ -16,7 +16,7 @@ const Chapter = ({ params }: PageProps) => {
   return (
     <>
       <PageHeader title={params.course} />
-      <div className="mx-96">
+      <div className="m-auto max-w-5xl">
       {course.chapters.map((chapter, chapterIndex) => (
         <ChapterCard
           key={chapterIndex} // Use a unique key for each component in the list
